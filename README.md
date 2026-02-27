@@ -35,4 +35,5 @@ Below are the screenshots of the calculation and receipt modules:
 1. Clone the repository.
 2. Open the project in Android Studio.
 3. Sync the Gradle files. 
-4. Run the application on an emulator or physical device.   <img width="321" height="446" alt="Image" src="https://github.com/user-attachments/assets/bb9c0a60-f222-483d-a931-c14c20a56668" />
+4. Run the application on an emulator or physical device.   <img width="509" height="939" alt="Image" src="https://github.com/user-attachments/assets/af2a41f8-2b3d-4b5f-b8a8-9036347bc701" />
+**<img width="509" height="939" alt="Image" src="https://github.com/user-attachments/assets/af2a41f8-2b3d-4b5f-b8a8-9036347bc701" />**
