@@ -5,7 +5,8 @@ A professional Android application module designed to calculate semester fees ba
 ## 📺 Application Demo
 Watch the functional demo of the Calculator module below:
 
-[Click here to watch the Video Demo](YOUR_VIDEO_LINK_HERE)
+[Click here to watch the Video Demo]
+<!-- Uploading "Screenrecorder-2026-02-27-21-44-32-357.mp4"... -->
 
 ---
 
