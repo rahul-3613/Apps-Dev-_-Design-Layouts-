@@ -1,0 +1,71 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="#122334" >
+
+</ImageView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="80dp"
+        android:hint="Write here"
+        android:background="#6D87"
+        android:padding="10dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/b22"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#C612E2"
+        android:layout_height="65dp"
+        android:text="Contact" />
+
+    <Button
+        android:id="@+id/b23"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Browser" />
+
+    <Button
+        android:id="@+id/b24"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="#126CE2"
+        android:text="Gallery" />
+
+    <Button
+        android:id="@+id/b25"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E21212"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Dialpad" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back Home"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF5722" />
+
+</LinearLayout>
+</RelativeLayout>

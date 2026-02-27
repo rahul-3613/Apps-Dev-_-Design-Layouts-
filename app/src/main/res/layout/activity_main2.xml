@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#122334" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Welcome Puc Qn.bank"
+                android:textColor="#FF5722"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:text="1st Semester CT Questions"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSem1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Open 1st Sem Drive"
+                android:backgroundTint="#00B406" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2nd Semester CT Questions"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSem2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Open 2nd Sem Drive"
+                android:backgroundTint="#00B406" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="3rd Semester CT Questions"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSem3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Open 3rd Sem Drive"
+                android:backgroundTint="#00B406" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="4th Semester CT Questions"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSem4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Open 4th Sem Drive"
+                android:backgroundTint="#00B406" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="5th Semester CT Questions"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSem5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Open 5th Sem Drive"
+                android:backgroundTint="#00B406" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="6th Semester CT Questions"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSem6"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Open 6th Sem Drive"
+                android:backgroundTint="#00B406"
+                android:layout_marginBottom="30dp"/>
+
+
+            <Button
+                android:id="@+id/btnBackHome2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back Home"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#FF5722" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
